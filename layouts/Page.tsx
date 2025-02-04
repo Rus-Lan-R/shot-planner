@@ -7,6 +7,7 @@ const StyledPage = {
     padding: 0 96px;
     max-width: 1024px;
     max-height: 100vh;
+    height: 100vh;
     overflow: auto;
   `,
 };
