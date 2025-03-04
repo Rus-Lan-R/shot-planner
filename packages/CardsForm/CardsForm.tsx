@@ -33,7 +33,7 @@ const stepsTree: IStepTree = {
 
 const StyledCardsForm = {
   CardsForm: styled.div`
-    margin-top: 120px;
+    width: 100%;
   `,
 };
 

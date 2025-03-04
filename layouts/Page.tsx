@@ -71,7 +71,9 @@ const Page = (props: PropsWithChildren & { footerCentred: ReactNode }) => {
         {!isMenuOpen && (
           <StyledPage.Text>{props.footerCentred}</StyledPage.Text>
         )}
-        <StyledPage.Text>contacts</StyledPage.Text>
+        <Link href={"/shot-planner"} passHref>
+          <StyledPage.Text>Shot Planner</StyledPage.Text>
+        </Link>
       </StyledPage.Footer>
     </StyledPage.Page>
   );
