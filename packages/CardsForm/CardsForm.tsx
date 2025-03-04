@@ -46,8 +46,6 @@ export const CardsForm = () => {
     setForm((prev) => [...prev, value.value]);
   };
 
-  console.log(form);
-
   return (
     <StyledCardsForm.CardsForm>
       <CardsSelect step={activeStep} onChange={handleChangeForm} />

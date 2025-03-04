@@ -1,12 +1,12 @@
-import { OrientationSwitch } from "@/components/OrientationSwitch";
+import { SocialLinks } from "@/components/SocilaLinks";
 import { SharedStyled } from "@/helpers/styled/Shared.styled";
 import Page from "@/layouts/Page";
 
-export default function Home() {
+export default function Contanct() {
   return (
-    <Page footerCentred={<OrientationSwitch />}>
+    <Page footerCentred={<SocialLinks />}>
       <SharedStyled.StyledCenter>
-        <>main</>
+        <>Contact</>
       </SharedStyled.StyledCenter>
     </Page>
   );
